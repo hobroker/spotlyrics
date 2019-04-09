@@ -1,0 +1,19 @@
+{
+  "name": "spotlyrics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "genius-api": "^0.4.1",
+    "inquirer": "^6.2.2",
+    "opn": "^6.0.0",
+    "spotify-node-applescript": "^1.1.1"
+  }
+}
