@@ -56,8 +56,5 @@ const run = async () => {
   await opn(url);
 };
 
-try {
-  run();
-} catch (e) {
-  console.error(e);
-}
+run()
+  .catch(console.error);
