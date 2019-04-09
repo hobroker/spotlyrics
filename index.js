@@ -52,7 +52,7 @@ const run = async () => {
     throw new Error('no results');
   }
   const choice = await promptSong(results);
-  const url = results[choice.song];
+  const url = results[choice];
   await opn(url);
 };
 
