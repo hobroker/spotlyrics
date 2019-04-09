@@ -5,15 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "electron": "electron main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "electron": "^4.1.4",
     "genius-api": "^0.4.1",
     "inquirer": "^6.2.2",
+    "menubar": "^5.2.3",
     "opn": "^6.0.0",
-    "spotify-node-applescript": "^1.1.1"
+    "r2": "^2.0.1",
+    "spotify-node-applescript": "^1.1.1",
+    "whatwg-fetch": "^3.0.0"
   }
 }
